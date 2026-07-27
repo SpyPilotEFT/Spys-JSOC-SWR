@@ -1,0 +1,70 @@
+{
+  "6a668154ed607881737e22c4": {
+    "itemTplToClone": "5d1b5e94d7ad1a2b865a96b0",
+    "parentId": "55818aeb4bdc2ddc698b456a",
+    "handbookParentId": "5b5f749986f774094242f199",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "skeet-ir.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": -2,
+      "ModesCount": [
+        2
+      ],
+      "Zooms":[
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Eotech EXPS3 w/ Trijicon Skeet IR",
+        "shortName": "EXPS Skeet",
+        "description": "Testing"
+      }
+    },
+    "fleaPriceRoubles": 4500000,
+    "handbookPriceRoubles": 4250000,
+    "addtoBots": false,
+    "addtoSpecialSlots": false,
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_scope",
+      "mod_scope_000"
+    ],
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 150
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 250
+      }
+    ],
+    "addtoSecureFilters": false,
+    "addtoTraders": true,
+    "traders": {
+      "MECHANIC": {
+        "6a66803cd5c22247447e22c2": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 15000,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

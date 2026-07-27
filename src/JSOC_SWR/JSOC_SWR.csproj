@@ -6,10 +6,10 @@
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Version>2.0.0</Version>
-    <AssemblyVersion>2.0.0.0</AssemblyVersion>
-    <FileVersion>2.0.0.0</FileVersion>
-    <InformationalVersion>2.0.0</InformationalVersion>
+    <Version>2.0.1</Version>
+    <AssemblyVersion>2.0.1.0</AssemblyVersion>
+    <FileVersion>2.0.1.0</FileVersion>
+    <InformationalVersion>2.0.1</InformationalVersion>
     <AssemblyName>com.spy.jsoc-swr</AssemblyName>
     <RootNamespace>JSOC_SWR</RootNamespace>
     <Authors>SpyPilot, Bobinstien</Authors>
@@ -49,11 +49,12 @@
   <!-- WTT is provided by its own mod at runtime; PackageReference is compile-only.
        (Dropped the duplicate local <Reference> to WTT-ServerCommonLib.dll.) -->
   <ItemGroup>
-    <PackageReference Include="WTT-ServerCommonLib" Version="2.0.20" />
+    <PackageReference Include="WTT-ServerCommonLib" Version="2.0.23" />
   </ItemGroup>
 
   <!-- 1. DEFINE ITEMS TO COPY -->
   <ItemGroup>
+      <PackageJson Include="Resources\package.json" />
       <BundlesJson Include="Resources\bundles.json" />
 
     <!-- All JSON under Resources\db (CustomAssortSchemes, CustomItems, CustomLocales, ...) -->
@@ -81,26 +82,33 @@
           SkipUnchangedFiles="false" />
 
     <!-- B. Copy bundles.json to mod root -->
+    <Message Importance="high" Text="[DeployMod] Copying package.json..." />
+    <Copy SourceFiles="@(PackageJson)"
+          DestinationFolder="$(SptModsDir)"
+          OverwriteReadOnlyFiles="true"
+          SkipUnchangedFiles="false" />
+
+    <!-- C. Copy bundles.json to mod root -->
     <Message Importance="high" Text="[DeployMod] Copying bundles.json..." />
     <Copy SourceFiles="@(BundlesJson)" 
           DestinationFolder="$(SptModsDir)" 
           OverwriteReadOnlyFiles="true" 
           SkipUnchangedFiles="false" />
 
-    <!-- C. Copy DB JSON (maintaining folder structure) -->
+    <!-- D. Copy DB JSON (maintaining folder structure) -->
     <Message Importance="high" Text="[DeployMod] Copying DB files..." />
     <Copy SourceFiles="@(DbFiles)"
           DestinationFolder="$(SptModsDir)\db\%(RecursiveDir)"
           OverwriteReadOnlyFiles="true"
           SkipUnchangedFiles="false" />
 
-    <!-- D. Copy DB images (maintaining folder structure) -->
+    <!-- E. Copy DB images (maintaining folder structure) -->
     <Copy SourceFiles="@(DbImages)"
           DestinationFolder="$(SptModsDir)\db\%(RecursiveDir)"
           OverwriteReadOnlyFiles="true"
           SkipUnchangedFiles="false" />
 
-    <!-- E. Handle bundles (Resources\bundles -> mod\bundles) -->
+    <!-- F. Handle bundles (Resources\bundles -> mod\bundles) -->
     <MakeDir Directories="$(SptModsDir)\bundles" />
 
     <!-- Copy bundles recursively -->

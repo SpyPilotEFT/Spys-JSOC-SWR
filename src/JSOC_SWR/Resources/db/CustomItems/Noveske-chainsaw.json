@@ -1,0 +1,1080 @@
+{
+
+  "6a6663f2155dd87d487e228f": {
+    "itemTplToClone": "5b2240bf5acfc40dc528af69",
+    "parentId": "55818a6f4bdc2db9688b456b",
+    "handbookParentId": "5b5f751486f77447ec5d770c",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Weight": 0.05,
+      "Prefab": {
+        "path": "noveske_charging_handle.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "Noveske Love Handle (FDE)",
+        "shortName": "Love CH",
+        "description": "Premium Materials\n: Precision-machined from high-quality 7075-T6 aluminum, this charging handle offers superior strength, durability, and lightweight performance. It's designed to withstand the harshest conditions while maintaining flawless functionality.\n\nType III Hard Coat Finish\n: The Love Handle features a Type III hard coat anodized finish, providing exceptional corrosion resistance and enhancing its longevity. This finish ensures your charging handle remains resilient even in harsh environments.\n\nSmooth Operation\n: The Love Handle  is engineered for smooth and reliable operation, minimizing friction and resistance during cycling. Its ergonomic design ensures comfortable and effortless handling, even in high-stress situations.  The low profile and forward swept handles are designed to have a minimal snag hazards at 2.310\" overall width.\n\nAmbidextrous Compatibility\n: With ambidextrous compatibility, this charging handle accommodates both right-handed and left-handed shooters, providing versatility and convenience for all users.\n\nGas Fence for Reduced Gas Blowback\n: Designed with a gas fence, this charging handle effectively mitigates gas blowback, enhancing your shooting experience by redirecting excess gas away from your face. This feature ensures a cleaner, more comfortable shooting experience.\n\nNoveske Quality\n: Noveske Rifleworks, known for its commitment to excellence, proudly manufactures the Love Handle in the USA. With Noveske, you're getting a product backed by a legacy of quality and innovation."
+      }
+    },
+    "fleaPriceRoubles": 5600,
+    "handbookPriceRoubles": 5600,
+    "addtoBots": true,
+    "addtoSpecialSlots": false,
+    "addtoModSlots": true,
+    "addtoStaticLootContainers": false,
+    "addtoSecureFilters": true,
+    "addtoTraders": true,
+    "addtoInventorySlots": [],
+    "modSlot": [
+      "mod_charge"
+    ],
+    "traders": {
+      "PEACEKEEPER": {
+        "6a6663e96d802941437e228e": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 105,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "6a6663f771682cb4807e2290": {
+    "itemTplToClone": "5447a9cd4bdc2dbd208b4567",
+    "parentId": "5447b5f14bdc2d61278b4567",
+    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "overrideProperties": {
+      "AdjustCollimatorsToTrajectory": false,
+      "AllowFeed": true,
+      "AllowJam": true,
+      "AllowMisfire": true,
+      "AllowOverheat": true,
+      "AllowSlide": true,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "black",
+      "BaseMalfunctionChance": 0.183425,
+      "BoltAction": false,
+      "BurstShotsCount": 3,
+      "CameraSnap": 3.5,
+      "Chambers": [
+        {
+          "_id": "6a6663fede9b78c7887e2291",
+          "_mergeSlotWithChildren": false,
+          "_name": "patron_in_weapon",
+          "_parent": "6a6663f771682cb4807e2290",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e6920f86f77411d82aa167",
+                  "59e6927d86f77411da468256",
+                  "54527a984bdc2d4e668b4567",
+                  "54527ac44bdc2d36668b4567",
+                  "59e68f6f86f7746c9f75e846",
+                  "59e6906286f7746c9f75e847",
+                  "59e690b686f7746c9f75e848",
+                  "59e6918f86f7746c9f75e849",
+                  "60194943740c5d77f6705eea",
+                  "601949593ae8f707c4608daa",
+                  "5c0d5ae286f7741e46554302"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "CompactHandling": true,
+      "ConflictingItems": ["6a666fe929d5da34c67e22b7"],
+      "CoolFactorGun": 3.168,
+      "DeviationCurve": 1.35,
+      "DeviationMax": 23,
+      "Durability": 100,
+      "DurabilityBurnRatio": 1.15,
+      "Ergonomics": 48,
+      "ExaminedByDefault": true,
+      "HeatFactorByShot": 1.235,
+      "HeatFactorGun": 1,
+      "Height": 1,
+      "MaxDurability": 100,
+      "MaxRepairDegradation": 0.03,
+      "MaxRepairKitDegradation": 0.025,
+      "Prefab": {
+        "path": "weapon_noveske_chainsaw.bundle",
+        "rcid": ""
+      },
+      "RecoilAngle": 90,
+      "RecoilCamera": 0.04,
+      "RecoilForceBack": 342,
+      "RecoilForceUp": 119,
+      "RecolDispersion": 10,
+      "ReloadMode": "ExternalMagazine",
+      "RepairComplexity": 0,
+      "RepairCost": 166,
+      "RepairSpeed": 15,
+      "SightingRange": 100,
+      "SingleFireRate": 450,
+      "SizeReduceRight": 0,
+      "Slots": [
+        {
+          "_id": "6a666411e234f203347e2292",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_pistol_grip",
+          "_parent": "6a6663f771682cb4807e2290",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0e2ff6d174af02a1659d4a",
+                  "5a33e75ac4a2826c6e06d759",
+                  "55d4b9964bdc2d1d4e8b456e",
+                  "571659bb2459771fb2755a12",
+                  "602e71bd53a60014f9705bfa",
+                  "6113c3586c780c1e710c90bc",
+                  "6113cc78d3a39d50044c065a",
+                  "6113cce3d92c473c770200c7",
+                  "5cc9bcaed7f00c011c04e179",
+                  "5bb20e18d4351e00320205d5",
+                  "5bb20e0ed4351e3bac1212dc",
+                  "6193dcd0f8ee7e52e4210a28",
+                  "5d025cc1d7ad1a53845279ef",
+                  "5c6d7b3d2e221600114c9b7d",
+                  "57c55efc2459772d2c6271e7",
+                  "57af48872459771f0b2ebf11",
+                  "57c55f092459772d291a8463",
+                  "57c55f112459772d28133310",
+                  "57c55f172459772d27602381",
+                  "5a339805c4a2826c6e06d73d",
+                  "55802f5d4bdc2dac148b458f",
+                  "5d15cf3bd7ad1a67e71518b2",
+                  "59db3a1d86f77429e05b4e92",
+                  "5fbcbd6c187fea44d52eda14",
+                  "59db3acc86f7742a2c4ab912",
+                  "59db3b0886f77429d72fb895",
+                  "615d8faecabb9b7ad90f4d5d",
+                  "5b07db875acfc40dc528a5f6",
+                  "63f5feead259b42f0b4d6d0f",
+                  "652911675ae2ae97b80fdf3c",
+                  "6a49911178ded31d0232d383",
+                  "6a49911b2b6058feb932d384",
+                  "6a4aa043613607d28f32d396"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "6a666415328a83faa97e2293",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "6a6663f771682cb4807e2290",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "55d4887d4bdc2d962f8b4570",
+                  "61840bedd92c473c77021635",
+                  "61840d85568c120fdd2962a5",
+                  "5c05413a0db834001c390617",
+                  "5c6d450c2e221600114c997d",
+                  "5c6d42cb2e2216000e69d7d1",
+                  "59c1383d86f774290a37e0ca",
+                  "5aaa5e60e5b5b000140293d6",
+                  "5448c1d04bdc2dff2f8b4569",
+                  "5aaa5dfee5b5b000140293d3",
+                  "5d1340b3d7ad1a0b52682ed7",
+                  "544a378f4bdc2d30388b4567",
+                  "5d1340bdd7ad1a0e8d245aab",
+                  "55802d5f4bdc2dac148b458e",
+                  "5d1340cad7ad1a0b0b249869",
+                  "6241c2c2117ad530666a5108",
+                  "5c6592372e221600133e47d7",
+                  "544a37c44bdc2d25388b4567",
+                  "5c6d46132e221601da357d56",
+                  "6761765f1f08ed5e8800b7a6"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "6a6664193ebb04c8c37e2294",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_reciever",
+          "_parent": "6a6663f771682cb4807e2290",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0e2f26d174af02a9625114",
+                  "55d355e64bdc2d962f8b4569",
+                  "5d4405aaa4b9361e6a4e6bd3",
+                  "5c07a8770db8340023300450",
+                  "59bfe68886f7746004266202",
+                  "63f5ed14534b2c3d5479a677",
+                  "6a5a6040fd770b91f8110874",
+                  "6a6664776b0e668ef57e2298"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "6a666421e5cf33dcf57e2295",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "6a6663f771682cb4807e2290",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a33ca0fc4a282000d72292f",
+                  "5c0faeddd174af02a962601f",
+                  "5649be884bdc2d79388b4577",
+                  "5d120a10d7ad1a4e1026ba85",
+                  "5b0800175acfc400153aebd4",
+                  "5947e98b86f774778f1448bc",
+                  "5947eab886f77475961d96c5",
+                  "602e3f1254072b51b239f713",
+                  "5c793fb92e221644f31bfb64",
+                  "5c793fc42e221600114ca25d",
+                  "638de3603a1a4031d8260b8c",
+                  "6761777a1f08ed5e8800b7ac",
+                  "6a3db4105e381c3c9fc17073",
+                  "6a498b1b7d93f01b6a32d357",
+                  "6a498bb3b3f45596bb32d35b"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "6a666425f9c97c205a7e2296",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_charge",
+          "_parent": "6a6663f771682cb4807e2290",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0faf68d174af02a96260b8",
+                  "56ea7165d2720b6e518b4583",
+                  "55d44fd14bdc2d962f8b456e",
+                  "5ea16d4d5aad6446a939753d",
+                  "5bb20dbcd4351e44f824c04e",
+                  "6033749e88382f4fab3fd2c5",
+                  "5b2240bf5acfc40dc528af69",
+                  "5d44334ba4b9362b346d1948",
+                  "5f633ff5c444ce7e3c30a006",
+                  "651bf5617b3b552ef6712cb7",
+                  "67f1a1000000000000000104",
+                  "67f1a2000000000000000104",
+                  "6a3daa0190367e3f64c17053",
+                  "6a3daa0190367e3f64c17101",
+                  "6a3daa0190367e3f64c17102",
+                  "6a3daa0190367e3f64c17103",
+                  "6a3daa0190367e3f64c17104",
+                  "6a4a54c4dedfd2327f32d392",
+                  "6a6663f2155dd87d487e228f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        }
+      ],
+      "Weight": 0.38,
+      "Width": 1,
+      "ammoCaliber": "Caliber556x45NATO",
+      "bEffDist": 500,
+      "bFirerate": 800,
+      "bHearDist": 80,
+      "chamberAmmoCount": 1,
+      "defAmmo": "54527a984bdc2d4e668b4567",
+      "defMagType": "55d4887d4bdc2d962f8b4570",
+      "isBoltCatch": true,
+      "isChamberLoad": true,
+      "isFastReload": true,
+      "weapClass": "assaultRifle",
+      "weapFireType": [
+        "single",
+        "fullauto"
+      ],
+      "weapUseType": "primary"
+    },
+    "locales": {
+      "en": {
+        "name": "Noveske Chainsaw 5.56x45mm Assault Rifle",
+        "shortName": "Chainsaw 5.56",
+        "description": "Lower Receiver\n\n    Noveske Chainsaw™ forged lower receiver from 7075-T6 aluminum\n    Enhanced polymer trigger guard\n    Government issue 90 degree safety selector\n    Hardcoat type III anodizing\n    Properly staked Noveske QD sling mount endplate\n    Noveske marked takedown and pivot pin\n    Adjustable tension screw for perfect fit between upper and lower\n    Noveske Single Stage Trigger- 5lbs pull weight- DLC coated and Noveske marked trigger shoe- Nickel Teflon hammer"
+      }
+    },
+    "fleaPriceRoubles": 560000,
+    "handbookPriceRoubles": 560000,
+    "addtoBots": true,
+    "addtoSpecialSlots": false,
+    "addtoModSlots": false,
+    "addtoStaticLootContainers": false,
+    "addtoSecureFilters": true,
+    "addtoTraders": true,
+    "addtoInventorySlots": [],
+    "modSlot": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "6a66646d6ba313abd67e2297": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 1200,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "6a6664776b0e668ef57e2298": {
+    "itemTplToClone": "5c07a8770db8340023300450",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Weight": 0.35,
+      "Ergonomics": 2,
+      "Recoil": -1,
+      "Slots": [
+        {
+          "_id": "6a66648aeb09022d997e2299",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "6a6664776b0e668ef57e2298",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5d0a29fed7ad1a002769ad08",
+                  "570fd6c2d2720bc6458b457f",
+                  "5a33b652c4a28232996e407c",
+                  "5dfe6104585a0c3e995c7b82",
+                  "6567e751a715f85433025998",
+                  "58d39d3d86f77445bb794ae7",
+                  "5b2389515acfc4771e1be0c0",
+                  "68caacc7933990601c07f479",
+                  "e3dcf75199f821636a95cb9b",
+                  "7af1b735539670b26a3fe68b",
+                  "62811f461d5df4475f46a332",
+                  "93efffa7844876067d81dca5",
+                  "655f13e0a246670fb0373245", "6a668154ed607881737e22c4",
+                  "57adff4f24597737f373b6e6",
+                  "686b15f7cf5ae78dbd7b950b",
+                  "695d6236499f37e727446f60",
+                  "686a5a6247c881f613196f91",
+                  "5ae30bad5acfc400185c2dc4",
+                  "685760329044ae9bac9012c3",
+                  "6857624d565daea78886d0c2",
+                  "685e519eacaed4c4e66980a7",
+                  "685e52e7038ea03a82a7a2c1",
+                  "685e52a030452e0aa23b53b6",
+                  "685e5326a119194a7cbaa34e",
+                  "685e5339826695a4b438120c",
+                  "5d2dc3e548f035404a1a4798",
+                  "03f6c86c56945862820e1006",
+                  "5a1ead28fcdbcb001912fa9f",
+                  "58d2664f86f7747fec5834f6",
+                  "6478641c19d732620e045e17",
+                  "591c4efa86f7741030027726",
+                  "685b40db60670990eb71ca2d",
+                  "7ca248803b89788492384ba2",
+                  "41e97223a2ad6374a096ae14",
+                  "558022b54bdc2dac148b458d",
+                  "6859411da7ac91f2e4088de4",
+                  "696c2c39eaf80d744d6f5b36",
+                  "696958420d2309811a0fd1d5",
+                  "68a5ab09c44fa287ba0a97b5",
+                  "2e681ada9836f6e030080191",
+                  "e1543def58291668bac8e2c8",
+                  "befd7a2bbc07793f73133f2c",
+                  "686a950f332bd39442d996c7",
+                  "686a959fea53389283823a5e",
+                  "877f002b7dadc7ae31d1fda1",
+                  "c26f2af872656829feb27c08",
+                  "68599b6ad4d99d0c051b5964",
+                  "68599c5272359bd6b568656c",
+                  "68599c64f0a918bcd731198f",
+                  "577d128124597739d65d0e56",
+                  "5d1b5e94d7ad1a2b865a96b0",
+                  "68611c8d57834d1471676982",
+                  "68611d271b5181217dee6c31",
+                  "68611d79d2f8c2caf35ddd39",
+                  "618b9643526131765025ab35",
+                  "618bab21526131765025ab3f",
+                  "b2d57758abe9bb9345c58e4a",
+                  "67ea8b32e0d7701fc6bfc5bf",
+                  "616554fe50224f204c1da2aa",
+                  "544a3a774bdc2d3a388b4567",
+                  "64785e7c19d732620e045e15",
+                  "6858fa27c104e3493576fd53",
+                  "687e09aa7e70e1e285c59d4e",
+                  "6960bc9172fcb3eb9da96b7c",
+                  "5c07dd120db834001c39092d",
+                  "5c0a2cec0db834001b7ce47d",
+                  "5b30b0dc5acfc400153b7124",
+                  "bbb4d0bc91c7fa46425e47c8",
+                  "b994d0bc91c7fa46425e47c9",
+                  "65392f611406374f82152ba5",
+                  "653931da5db71d30ab1d6296",
+                  "de53b0fd978f0eaad71c5528",
+                  "d3e07e32dc01693c226878dc",
+                  "6761759e7ee06333f108bf86",
+                  "5a37ca54c4a282000d72296a",
+                  "f849f458cb4ad62c5d8b96e1",
+                  "86f1db244188717106a25806",
+                  "5c86592b2e2216000e69e77c",
+                  "609a63b6e2ff132951242d09",
+                  "35adebfd2014a2861056138b",
+                  "2e31bdb165e6f6f7ac19b0d8",
+                  "8d9e9ff3020f92eb5fc46680",
+                  "57c69dd424597774c03b7bbc",
+                  "5c7d55f52e221644f31bff6a",
+                  "5ae3d18efa17cbd51e898ced",
+                  "688a0bf28cdd409ce60911ce",
+                  "08940f5c853aa6acf4049bc2",
+                  "685ac95d7bde7c5e19ba8d89",
+                  "685acb7cdabf1c595fd9b3b7",
+                  "686a990e217f312ed3fe65bf",
+                  "686a99b24e95c2b6c57ef026",
+                  "6655df2d0169bf45a18535c8",
+                  "794a8aea9ca78d01fc24a4f8",
+                  "570fd721d2720bc5458b4596",
+                  "615d8d878004cc50514c3233",
+                  "5b3b99265acfc400170e2dd5",
+                  "5aa66a9be5b5b0214e506e89",
+                  "5aa66c72e5b5b00016327c93",
+                  "544a3d0a4bdc2d1b388b4567",
+                  "570fd79bd2720bc7458b4583",
+                  "692deffb1966298e696fcd8f",
+                  "695fca555fc8a1adfb51a4a3",
+                  "544a3f024bdc2d1d388b4568",
+                  "584984812459776a704a82a6",
+                  "57ae0171245977343c27bfcf",
+                  "5c0505e00db834001b735073",
+                  "68642e0200397ba2b9e4ea9a",
+                  "5c0517910db83400232ffee5",
+                  "5c064c400db834001d23f468",
+                  "616584766ef05c2ce828ef57",
+                  "20c6ee849ac15cb4e31472c9",
+                  "013a6d4ff28f8e4331898d68",
+                  "55dccd6302404bfc237a814e",
+                  "1c852a7fd73bcde9d3ff968b",
+                  "71e6bc96b1a4cce0b4340b20",
+                  "986150a30f2c89c4555dead5",
+                  "f07a16a89f1c954f72bbf50e",
+                  "7e07f0150bb32a595e2c142b",
+                  "5a33b2c9c4a282000c5a9511",
+                  "6171407e50224f204c1da3c5",
+                  "61713cc4d8e3106d9806c109",
+                  "5b31163c5acfc400153b71cb",
+                  "684ef6bc3fcbe11882807386",
+                  "684f2ebbd4f01748a7d154b9",
+                  "684f2eed5600200459543ecc",
+                  "6477772ea8a38bb2050ed4db",
+                  "60a23797a37c940de7062d02",
+                  "0377e32842c4024a423c472e",
+                  "81fb194d053a4ccedce3782d",
+                  "68922e39bacf39d24ca68ddf",
+                  "6897de1182f827c8f199f355",
+                  "67641a851b2899700609901a",
+                  "5c1cdd302e221602b3137250",
+                  "4330375080cfa3b0acf681c0",
+                  "dc443bf6ab32570c69096e37",
+                  "66079d40016c0de3509a31e7",
+                  "ca9b71e00031160119ab1e58",
+                  "57ac965c24597706be5f975c",
+                  "57aca93d2459771f2c7e26db",
+                  "797e1ab4422217d7cfe3d299",
+                  "12f2d58f76f9629580851b6f",
+                  "68caacb4c8ac87b10507c5a6",
+                  "5d2da1e948f035477b1ce2ba",
+                  "2322ee962f6c77a1284abc1e",
+                  "61714b2467085e45ef140b2c",
+                  "609bab8b455afd752b2e6138",
+                  "58c3819c7e3f0593dbb9851a",
+                  "59db7eed86f77461f8380365",
+                  "626bb8532c923541184624b4",
+                  "59f9d81586f7744c7506ee62",
+                  "22345a1c542354f86796efda",
+                  "a5c171496c1870f205a3c972",
+                  "be932f93b18038949ec47085",
+                  "6165ac8c290d254f5e6b2f6c",
+                  "5dff77c759400025ea5150cf",
+                  "696395af1b7e04938307a124",
+                  "5b3b6dc75acfc400153b71cb",
+                  "695ffdaedd28a71ea5446f66",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "63fc449f5bd61c6cf3784a88"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6a66648ec35ba941957e229a",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_barrel",
+          "_parent": "6a5a6040fd770b91f8110874",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6a5a6545f8a853b55a11088c",
+                  "55d35ee94bdc2d61338b4568",
+                  "55d3632e4bdc2d972f8b4569",
+                  "5d440b93a4b9364276578d4b",
+                  "5d440b9fa4b93601354d480c",
+                  "5c0e2f94d174af029f650d56",
+                  "63d3ce0446bd475bcb50f55f",
+                  "63d3d44a2a49307baf09386d",
+                  "6a6665ecabc371841d7e22a7"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "6a66649731d9f1f8327e229b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_handguard",
+          "_parent": "6a6664776b0e668ef57e2298",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0e2f5cd174af02a012cfc9",
+                  "619b5db699fb192e7430664f",
+                  "5b2cfa535acfc432ff4db7a0",
+                  "5ae30db85acfc408fb139a05",
+                  "5c9a25172e2216000f20314e",
+                  "55f84c3c4bdc2d5f408b4576",
+                  "588b56d02459771481110ae2",
+                  "5c9a26332e2216001219ea70",
+                  "5ea16ada09aa976f2e7a51be",
+                  "5ea16acdfadf1d18c87b0784",
+                  "55d459824bdc2d892f8b4573",
+                  "5d122e7bd7ad1a07102d6d7f",
+                  "5d123102d7ad1a004e475fe5",
+                  "5d4405f0a4b9361e6a4e6bd9",
+                  "5c78f2792e221600106f4683",
+                  "5c78f26f2e221601da3581d1",
+                  "5c78f2492e221600114c9f04",
+                  "5c78f2612e221600114c9f0d",
+                  "6034e3e20ddce744014cb878",
+                  "6034e3d953a60014f970617b",
+                  "6034e3cb0ddce744014cb870",
+                  "5c6d5d8b2e221644fc630b39",
+                  "5d00e0cbd7ad1a6c6566a42d",
+                  "5d00f63bd7ad1a59283b1c1e",
+                  "6087e0336d0bd7580617bb7a",
+                  "595cfa8b86f77427437e845b",
+                  "595cf16b86f77427440c32e2",
+                  "63888bbd28e5cc32cc09d2b6",
+                  "63f4ba71f31d4a33b87bd046",
+                  "640b20359ab20e15ee445fa9",
+                  "647de824196bf69818044c93",
+                  "6a3db319a3d2c9be0ec1705d",
+                  "6a3db319a3d2c9be0ec17101",
+                  "6a3db319a3d2c9be0ec17102",
+                  "6a3db319a3d2c9be0ec17103",
+                  "6a3db38bfbceb602afc17068",
+                  "6a3db38bfbceb602afc17101",
+                  "6a3db38bfbceb602afc17102",
+                  "6a3db38bfbceb602afc17103",
+                  "6a4988e8964a3b687e32d32a",
+                  "6a498ab3de5c16d4fb32d341",
+                  "6a498a7665bd6a175e32d337",
+                  "6a498af44fdb5b2ab832d34d",
+                  "6a5a60d5d1065dd4fa110879",
+                  "6a6664ef79918820167e229e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "6a6664a39937c6a7407e229c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "6a6664776b0e668ef57e2298",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5bb20e49d4351e3bac1212de",
+                  "5ba26b17d4351e00367f9bdd",
+                  "5dfa3d7ac41b2312ea33362a",
+                  "5c1780312e221602b66cc189",
+                  "5fb6564947ce63734e3fa1da",
+                  "5bc09a30d4351e003562b68e",
+                  "5c18b9192e2216398b5a8104",
+                  "5fc0fa957283c4046c58147e",
+                  "5894a81786f77427140b8347",
+                  "55d5f46a4bdc2d1b198b4567",
+                  "5ae30bad5acfc400185c2dc4"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Prefab": {
+        "path": "noveske_chainsaw_rec.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "Noveske Chainsaw™ 5.56x45mm Upper Receiver (FDE)",
+        "shortName": "Chainsaw Upper",
+        "description": "Noveske Chainsaw™ forged upper receiver from 7075-T6 aluminum w/extended feed ramps\nHardcoat type III anodizing\nBlack nitride Noveske marked forward assist\nFeaturing anti-rotation interface with handguard\nPhosphate coated bolt carrier, full auto compatible, chrome lined carrier bore and key\nProperly staked grade 8 American made gas key bolts\nPhosphate bolt made from Carpenter 158 heat treated steel MPI tested (magnetic particle inspected)"
+      }
+    },
+    "fleaPriceRoubles": 85000,
+    "handbookPriceRoubles": 90000,
+    "addtoBots": false,
+    "addtoSpecialSlots": false,
+    "addtoModSlots": true,
+    "addtoStaticLootContainers": false,
+    "addtoSecureFilters": true,
+    "addtoTraders": true,
+    "addtoInventorySlots": [],
+    "modSlot": [
+      "mod_reciever"
+    ],
+    "traders": {
+      "PEACEKEEPER": {
+        "6a6664e75af1e101f97e229d": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 518,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "6a6664ef79918820167e229e": {
+    "itemTplToClone": "5c78f2612e221600114c9f0d",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Weight": 0.28,
+      "Ergonomics": 11,
+      "Recoil": -2,
+      "Slots": [
+        {
+          "_id": "6a6664f2b70c5cee457e229f",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_foregrip",
+          "_parent": "6a6664ef79918820167e229e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57cffb66245977632f391a99",
+                  "57cffcd624597763133760c5",
+                  "57cffcdd24597763f5110006",
+                  "57cffce524597763b31685d8",
+                  "5b7be4895acfc400170e2dd5",
+                  "651a8bf3a8520e48047bf708",
+                  "651a8e529829226ceb67c319",
+                  "665d5d9e338229cfd6078da1",
+                  "665edce564fb556f940ab32a",
+                  "6771857578614af1411b7d9e",
+                  "677187150147ea6631f5b93f",
+                  "68272a652182ac144f61b957",
+                  "6828cd508974345baeecac96",
+                  "6828cd620cb2ca5c4c8b318b",
+                  "68c48eb7c91390fb930e8d94",
+                  "68c48eb7c91390fb930e8d95",
+                  "69127fcffb534981300b1d7d",
+                  "69127fcffb534981300b1d7f",
+                  "69127fcffb534981300b1d81",
+                  "69127fcffb534981300b1d83",
+                  "69127fcffb534981300b1d85",
+                  "6912857dfb534981300b1d87",
+                  "69075ee9f4b1abd5ba0a1bb3",
+                  "5c262445ceaffa8a1cd9e758",
+                  "6893d1e2483f058199f2e199",
+                  "6893d31fca58c9d45599e903",
+                  "6893d333cb3f8611941742d3",
+                  "6893d360fa62405a6249629b",
+                  "6893d3810e4a42c4c08b3eb4",
+                  "6893d391a029e7f8210fa511",
+                  "cc341526d1587cba81574e7f",
+                  "68827aaba06fa1cf759ec88d",
+                  "696fc803cf7469bf38051731",
+                  "696fe281cf7469bf3805173c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6a6664f9137c0b5f267e22a0",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "6a6664ef79918820167e229e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5649a2464bdc2d91118b45a8",
+                  "6845a2443b726a816a6ca79e",
+                  "6845a36582114b67fdc12a16",
+                  "6845a394ddfdb4cac936974e",
+                  "6845a930e3dfd938256267a2",
+                  "698a78331bb1f79e210fe924",
+                  "68bb6be346d4437fb40002e0",
+                  "85a2077a2a40a73a0f95f74a",
+                  "f07a16a89f1c954f72bbf50e",
+                  "7e07f0150bb32a595e2c142b",
+                  "cc932f93b18038949ec47085"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6a6664fcdbadde81797e22a1",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_front",
+          "_parent": "6a6664ef79918820167e229e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c",
+                  "55d4af3a4bdc2d972f8b456f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6a6665000081ae8ccd7e22a2",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_000",
+          "_parent": "6a6664ef79918820167e229e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6a666557fff42486b07e22a4",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_000",
+          "_parent": "6a6664ef79918820167e229e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "669a6a4a525be1d2d004b8eb",
+                  "689c8b454b91399db3085f2a",
+                  "f44250bc91c7fa46425e47c8",
+                  "67f1a2000000000000000103"
+                  
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6a66655a71703f32d07e22a5",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_001",
+          "_parent": "6a6664ef79918820167e229e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "669a6a4a525be1d2d004b8eb",
+                  "689c8b454b91399db3085f2a",
+                  "f44250bc91c7fa46425e47c8",
+                  "67f1a2000000000000000103",
+                  "6a66719ab6082a0c757e22ba"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Prefab": {
+        "path": "chainsaw_handguard.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "Noveske 4th Generation NSR 10.5\" M-LOK®",
+        "shortName": "Noveske 10.5\"",
+        "description": "4th Generation NSR-15” (M-LOK) Free Floating Handguard\nFeaturing M-LOK mounting positions every 45 degrees with picatinny 1913 top rail\nLight weight American made steel barrel nut"
+      }
+    },
+    "fleaPriceRoubles": 4200,
+    "handbookPriceRoubles": 4200,
+    "addtoBots": false,
+    "addtoSpecialSlots": false,
+    "addtoModSlots": false,
+    "addtoStaticLootContainers": false,
+    "addtoSecureFilters": true,
+    "addtoTraders": true,
+    "addtoInventorySlots": [],
+    "modSlot": [],
+    "traders": {
+      "PEACEKEEPER": {
+        "6a6665e859652fa06f7e22a6": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 350,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "6a6665ecabc371841d7e22a7": {
+    "itemTplToClone": "55d35ee94bdc2d61338b4568",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Weight": 0.48,
+      "Ergonomics": 2,
+      "Recoil": 1,
+      "Velocity": -12,
+      "HeatFactorGun": 0.9,
+      "Slots": [
+        {
+          "_id": "6a6665f040145337fa7e22a8",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "6a6665ecabc371841d7e22a7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b3a16655acfc40016387a2a",
+                  "5c7e5f112e221600106f4ede",
+                  "5c0fafb6d174af02a96260ba",
+                  "612e0cfc8004cc50514c2d9e",
+                  "5cf6937cd7f00c056c53fb39",
+                  "544a38634bdc2d58388b4568",
+                  "5cff9e5ed7ad1a09407397d4",
+                  "5c48a2a42e221602b66d1e07",
+                  "5f6372e2865db925d54f3869",
+                  "615d8e2f1cb55961fa0fd9a4",
+                  "56ea8180d2720bf2698b456a",
+                  "5d02676dd7ad1a049e54f6dc",
+                  "56ea6fafd2720b844b8b4593",
+                  "5943ee5a86f77413872d25ec",
+                  "609269c3b0e443224b421cc1",
+                  "5c7fb51d2e2216001219ce11",
+                  "5ea172e498dacb342978818e",
+                  "5c6d710d2e22165df16b81e7",
+                  "612e0e55a112697a4b3a66e7",
+                  "5d440625a4b9361eec4ae6c5",
+                  "5cc9b815d7f00c000e2579d6",
+                  "5a7c147ce899ef00150bd8b8",
+                  "5c7954d52e221600106f4cc7",
+                  "59bffc1f86f77435b128b872",
+                  "5a9fbb84a2750c00137fa685",
+                  "626667e87379c44d557b7550",
+                  "62669bccdb9ebb4daa44cd14",
+                  "626a74340be03179a165e30c",
+                  "6386120cd6baa055ad1e201c",
+                  "63ac5c9658d0485fc039f0b8",
+                  "6405ff6bd4578826ec3e377a",
+                  "64943b74e9998d641b0412ed",
+                  "6621455e3aceea9e2b0b01e7",
+                  "664301213dd83ddae20dda18"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6a6665fbe5a09abc5a7e22a9",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_gas_block",
+          "_parent": "6a6665ecabc371841d7e22a7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ae30e795acfc408fb139a0b",
+                  "56eabcd4d2720b66698b4574",
+                  "5d00ec68d7ad1a04a067e5be",
+                  "56ea8d2fd2720b7c698b4570",
+                  "63d3ce281fe77d0f2801859e",
+                  "6a5a65b0cf9abd7e0211088e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        }
+      ],
+      "Prefab": {
+        "path": "noveske_115_barrel.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "Noveske CHF Chrome Lined Barrel 5.56x45mm 11.5 inch barrel",
+        "shortName": "Noveske 11.5\" 556",
+        "description": "Our chrome lined barrels are cold hammered forged and made with the material callouts and manufacturing process for the M249 Machine Gun barrel.\n\nThe cold hammer forging process work hardens the steel around a rifled mandrel, which creates the lands and grooves. The barrel is then chrome lined to the spec for a M249 Machine Gun barrel, which is about twice as thick as that of an M4 barrel. The end result is a rifle that can be run hard day after day. For any high round count, high temperature, heavy shooting, we recommend our chrome lined barrel.\n\nPremium Cold Hammer Forged (CHF) 5.56mm Noveske barrels available in 10.5\", 12.5\", 13.7\", 14.5\", and 16.1\" lengths. Each barrel is CHF-formed with a 1:7 twist and 5.56 NATO chamber, magnetic‑particle inspected for material integrity, and fitted with a Noveske low‑profile .750\" journal gas block pinned to the barrel. All include an M4‑style barrel extension and ½\"x28 muzzle threads. The only exception is the Skinny Profile 14.5\", which features a .625\" journal. "
+      }
+    },
+    "fleaPriceRoubles": 43200,
+    "handbookPriceRoubles": 43200,
+    "addtoBots": false,
+    "addtoSpecialSlots": false,
+    "addtoModSlots": true,
+    "addtoStaticLootContainers": false,
+    "addtoSecureFilters": true,
+    "addtoTraders": true,
+    "addtoInventorySlots": [],
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "traders": {
+      "PEACEKEEPER": {
+        "6a666921a0f81c85c47e22aa": {
+          "barterSettings": {
+            "loyalLevel": 4,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 490,
+              "_tpl": "MONEY_DOLLARS"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

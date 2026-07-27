@@ -1,9 +1,7 @@
 # Credits
 
-Spy's JSOC-SWR was made possible with help from:
-
 - SpyPilot: mod author
-- bobinstein: Unity, Blender, refactor, and shader help
-- EpicRangeTime: shaders and EpicsAIO
+- bobinstein: full JSOC-SWR refactor, Unity work, Blender work, shader help, bundle fixes, item setup help, and bug fixing support
+- EpicRangeTime: shaders and EpicsAIO support
 
-Thank you to both bobinstein and EpicRangeTime for their work and permission/credit guidance.
+Huge thanks to bobinstein for making the JSOC-SWR refactor possible and helping get the new weapon content into shape.

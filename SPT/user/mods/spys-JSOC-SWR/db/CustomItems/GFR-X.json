@@ -392,7 +392,7 @@
                   "7af1b735539670b26a3fe68b",
                   "62811f461d5df4475f46a332",
                   "93efffa7844876067d81dca5",
-                  "655f13e0a246670fb0373245",
+                  "655f13e0a246670fb0373245", "6a668154ed607881737e22c4",
                   "57adff4f24597737f373b6e6",
                   "686b15f7cf5ae78dbd7b950b",
                   "695d6236499f37e727446f60",
@@ -1148,10 +1148,10 @@
       "mod_gas_block"
     ],
     "addtoStaticLootContainers": true,
-    "StaticLootContainers": [
+    "staticLootContainers": [
       {
-        "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
-        "Probability": 5
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 5
       }
     ],
     "addtoSecureFilters": true,

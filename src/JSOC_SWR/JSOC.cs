@@ -12,17 +12,17 @@ namespace JSOC_SWR;
 public record ModMetadata : AbstractModMetadata
 {
     public override string ModGuid { get; init; } = "com.spy.jsoc-swr";
-    public override string Name { get; init; } = "JSOC-SWR-FDK";
-    public override string Author { get; init; } = "Spy";
-    public override SemVersion Version { get; init; } = new("2.0.0");
+    public override string Name { get; init; } = "Spy's JSOC-SWR";
+    public override string Author { get; init; } = "SpyPilot";
+    public override SemVersion Version { get; init; } = new("2.0.1");
     public override SemRange SptVersion { get; init; } = new("^4.0.13");
     public override string License { get; init; } = "MIT";
     public override bool? IsBundleMod { get; init; } = true;
 
     public override Dictionary<string, SemRange>? ModDependencies { get; init; } = new()
     {
-        ["com.wtt.commonlib"] = new SemRange("~2.0.20"),
-        ["com.epicrangetime.aio"] = new SemRange("~4.0.8")
+        ["com.wtt.commonlib"] = new SemRange("^2.0.20"),
+        ["com.epicrangetime.aio"] = new SemRange("^4.0.8")
     };
 
     public override string? Url { get; init; } = null;

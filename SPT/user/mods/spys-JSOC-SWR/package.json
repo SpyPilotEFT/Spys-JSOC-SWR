@@ -1,6 +1,6 @@
 ﻿{
     "name":  "spys-JSOC-SWR",
-    "version":  "2.0.0",
+    "version":  "2.0.1",
     "sptVersion":  "4.0.13",
     "main":  "com.spy.jsoc-swr.dll",
     "license":  "CC BY-NC-ND 4.0",

@@ -5,3 +5,4 @@ bundles_backup*/
 *.log
 bin/
 obj/
+.idea/

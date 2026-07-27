@@ -5,6 +5,13 @@
       "dependencyKeys": []
     },
       {
+        "key": "textures/noveske-textures.bundle",
+        "dependencyKeys": [
+          "shaders",
+          "spy_shaders.bundle"
+        ]
+      },
+      {
         "key": "textures/gfr-6arc-textures.bundle",
         "dependencyKeys": [
           "spy_shaders.bundle",
@@ -805,6 +812,95 @@
         "dependencyKeys": [
           "spy_shaders.bundle",
           "textures/lmt-textures.bundle"
+        ]
+      },
+      {
+        "key": "chainsaw_handguard.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "spy_shaders.bundle",
+          "textures/noveske-textures.bundle"
+        ]
+      },
+      {
+        "key": "modlite_mlok.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/standard assets/effects/lightcookies/textures/flashlightcookie.bundle",
+          "shaders",
+          "spy_shaders.bundle",
+          "textures/noveske-textures.bundle"
+        ]
+      },
+      {
+        "key": "skeet-ir.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/content/textures/holemanager/round_spec_mask.bundle",
+          "assets/systems/effects/collimator.bundle",
+          "assets/systems/effects/nightvision/mask_nv_textures",
+          "assets/systems/nightvision.bundle",
+          "shaders",
+          "spy_shaders.bundle"
+        ]
+      },
+      {
+        "key": "noveske_115_barrel.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/systems/effects/smoke.bundle",
+          "shaders",
+          "spy_shaders.bundle",
+          "textures/noveske-textures.bundle"
+        ]
+      },
+      {
+        "key": "noveske_chainsaw_rec.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "spy_shaders.bundle",
+          "textures/noveske-textures.bundle"
+        ]
+      },
+      {
+        "key": "noveske_charging_handle.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "spy_shaders.bundle",
+          "textures/noveske-textures.bundle"
+        ]
+      },
+      {
+        "key": "noveske_gen_3_rec.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "shaders",
+          "spy_shaders.bundle",
+          "textures/noveske-textures.bundle"
+        ]
+      },
+      {
+        "key": "weapon_noveske_chainsaw.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/content/audio/blendoptions/assets.bundle",
+          "assets/content/weapons/additional_hands/client_assets.bundle",
+          "assets/content/weapons/weapon_root_anim_fix.bundle",
+          "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+          "spy_shaders.bundle",
+          "textures/noveske-textures.bundle"
+        ]
+      },
+      {
+        "key": "weapon_noveske_gen1.bundle",
+        "dependencyKeys": [
+          "assets/commonassets/physics/physicsmaterials.bundle",
+          "assets/content/audio/blendoptions/assets.bundle",
+          "assets/content/weapons/additional_hands/client_assets.bundle",
+          "assets/content/weapons/weapon_root_anim_fix.bundle",
+          "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+          "spy_shaders.bundle",
+          "textures/noveske-textures.bundle"
         ]
       }
     ]
